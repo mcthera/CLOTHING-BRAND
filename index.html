@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANITA JEANS AND CLOTHING | Premium Jeans & Clothing</title>
+    <meta
+      name="description"
+      content="ANITA JEANS AND CLOTHING offers premium jeans, fashion basics, and everyday clothing in Ghana's commercial hub, Kumasi."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="ANITA JEANS AND CLOTHING home">
+          <span class="brand-mark">AJ</span>
+          <span>
+            <strong>ANITA JEANS</strong>
+            <small>AND CLOTHING</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#collections">Collections</a>
+          <a href="#featured">Featured</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-button" aria-label="Search">
+            <span>⌕</span>
+          </button>
+          <button class="icon-button" aria-label="Cart">
+            <span>🛒</span>
+          </button>
+          <button class="menu-button" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Premium denim from Kumasi</p>
+            <h1>Built for city streets and everyday confidence.</h1>
+            <p class="hero-text">
+              Discover expertly cut jeans, relaxed essentials, and statement
+              streetwear designed for Ghanaian style, comfort, and durability.
+            </p>
+            <div class="cta-row">
+              <a href="#featured" class="btn btn-primary">Shop collection</a>
+              <a href="#contact" class="btn btn-secondary">Visit store</a>
+            </div>
+            <ul class="trust-list">
+              <li>Authentic denim</li>
+              <li>Free local delivery</li>
+              <li>Tailored fits</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="floating-card card-one">
+              <span>New Arrival</span>
+              <strong>Premium Indigo</strong>
+              <small>From GHS 420</small>
+            </div>
+            <div class="image-stack">
+              <img
+                src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=80"
+                alt="Model wearing premium denim"
+              />
+            </div>
+            <div class="floating-card card-two">
+              <span>Top Rated</span>
+              <strong>4.9/5</strong>
+              <small>Customer reviews</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <!-- <section class="stats-bar">
+        <div class="container stats-grid">
+          <div>
+            <strong>10K+</strong>
+            <span>Happy shoppers</span>
+          </div>
+          <div>
+            <strong>120+</strong>
+            <span>Styles curated</span>
+          </div>
+          <div>
+            <strong>48h</strong>
+            <span>Fast local dispatch</span>
+          </div>
+          <div>
+            <strong>5.0</strong>
+            <span>Average service rating</span>
+          </div>
+        </div>
+      </section>
+      -->
+
+
+      <section id="collections" class="collections section-space">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Our collections</p>
+            <h2>Jeans built to match every mood.</h2>
+          </div>
+
+          <div class="collection-grid">
+            <a class="collection-card reveal" href="gallery.html">
+              <img
+                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
+                alt="Men's denim collection"
+              />
+              <div class="card-copy">
+                <h3>Men's Denim</h3>
+                <p>Relaxed, slim, and tapered fits in deep indigo and stone.</p>
+              </div>
+            </a>
+            <a class="collection-card reveal" href="gallery.html">
+              <img
+                src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+                alt="Women's fashion collection"
+              />
+              <div class="card-copy">
+                <h3>Women's Fit</h3>
+                <p>Modern silhouettes with comfort-first cuts and statement denim.</p>
+              </div>
+            </a>
+            <a class="collection-card reveal" href="gallery.html">
+              <img
+                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
+                alt="Streetwear essentials"
+              />
+              <div class="card-copy">
+                <h3>Streetwear</h3>
+                <p>Urban layers, premium tees, and casual essentials for daily wear.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured" class="featured section-space">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Featured picks</p>
+            <h2>Denim essentials everyone wants.</h2>
+          </div>
+
+          <div class="filter-bar reveal" aria-label="Product filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="men">Men</button>
+            <button class="filter-btn" data-filter="women">Women</button>
+            <button class="filter-btn" data-filter="casual">Casual</button>
+          </div>
+
+          <div class="product-grid">
+            <a class="product-card reveal" data-category="men" href="gallery.html">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+                  alt="Classic dark blue jean"
+                />
+                <span class="badge">Best seller</span>
+              </div>
+              <div class="product-info">
+                <div class="meta-row">
+                  <span class="category">Men</span>
+                  <span class="rating">★ 4.9</span>
+                </div>
+                <h3>Classic Indigo</h3>
+                <p>Structured fit, washed premium denim.</p>
+                <div class="price-row">
+                  <strong>GHS 420</strong>
+                  <button type="button">View details</button>
+                </div>
+              </div>
+            </a>
+
+            <a class="product-card reveal" data-category="women" href="gallery.html">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80"
+                  alt="Fitted women's jeans"
+                />
+                <span class="badge alt">New</span>
+              </div>
+              <div class="product-info">
+                <div class="meta-row">
+                  <span class="category">Women</span>
+                  <span class="rating">★ 5.0</span>
+                </div>
+                <h3>Skyline Curve</h3>
+                <p>Soft stretch and a tailored silhouette.</p>
+                <div class="price-row">
+                  <strong>GHS 390</strong>
+                  <button type="button">View details</button>
+                </div>
+              </div>
+            </a>
+
+            <a class="product-card reveal" data-category="casual" href="gallery.html">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80"
+                  alt="Streetwear denim set"
+                />
+                <span class="badge">Trending</span>
+              </div>
+              <div class="product-info">
+                <div class="meta-row">
+                  <span class="category">Casual</span>
+                  <span class="rating">★ 4.8</span>
+                </div>
+                <h3>Urban Layer</h3>
+                <p>Comfort-driven denim for city wear.</p>
+                <div class="price-row">
+                  <strong>GHS 510</strong>
+                  <button type="button">View details</button>
+                </div>
+              </div>
+            </a>
+
+            <a class="product-card reveal" data-category="men" href="gallery.html">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=800&q=80"
+                  alt="Black and grey denim fit"
+                />
+                <span class="badge alt">Limited</span>
+              </div>
+              <div class="product-info">
+                <div class="meta-row">
+                  <span class="category">Men</span>
+                  <span class="rating">★ 4.7</span>
+                </div>
+                <h3>Midnight Wash</h3>
+                <p>Dark tones with a clean, smart finish.</p>
+                <div class="price-row">
+                  <strong>GHS 460</strong>
+                  <button type="button">View details</button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="why-us" class="why-us section-space">
+        <div class="container why-layout">
+          <div class="why-copy reveal">
+            <p class="eyebrow">Why choose us</p>
+            <h2>Premium styling, tailored for Ghanaian life.</h2>
+            <p>
+              From the bustling streets of Kumasi to the pace of everyday work,
+              our pieces balance quality, affordability, and trend-forward design.
+            </p>
+            <ul class="feature-list">
+              <li>Premium stitching and durable denim fabric</li>
+              <li>Curated fits for men, women, and youth</li>
+              <li>Personal styling support in-store</li>
+              <li>Local after-sales support and easy exchanges</li>
+            </ul>
+          </div>
+
+          <div class="feature-cards reveal">
+            <div class="mini-card">
+              <span class="icon">✦</span>
+              <h3>Tailored quality</h3>
+              <p>Every piece selected for everyday wear and long-term comfort.</p>
+            </div>
+            <div class="mini-card">
+              <span class="icon">⚑</span>
+              <h3>Local obsession</h3>
+              <p>Designed for Ghanaian fashion and weather conditions.</p>
+            </div>
+            <div class="mini-card">
+              <span class="icon">⏱</span>
+              <h3>Fast delivery</h3>
+              <p>Quick dispatch across Kumasi and major Ghanaian cities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews section-space">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Customer love</p>
+            <h2>Trusted by fashion-forward shoppers.</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                “The fit is excellent and the fabric feels premium. I wear my denim
+                to work and weekends without losing shape.”
+              </p>
+              <div class="person">
+                <strong>Michael K.</strong>
+                <span>Kumasi Central</span>
+              </div>
+            </article>
+            <article class="testimonial reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                “I love the attention to detail and the service. The team helped me
+                pick the right silhouette for my body type.”
+              </p>
+              <div class="person">
+                <strong>Afia N.</strong>
+                <span>Asafo</span>
+              </div>
+            </article>
+            <article class="testimonial reveal">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Their jeans are stylish and durable. We ordered a few for our crew
+                and everyone loved the look.”
+              </p>
+              <div class="person">
+                <strong>Yaw B.</strong>
+                <span>Suame</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-banner section-space">
+        <div class="container promo-box reveal">
+          <div>
+            <p class="eyebrow">This weekend only</p>
+            <h2>Up to 30% off selected denim drops.</h2>
+          </div>
+          <a href="#contact" class="btn btn-primary">Book a fitting</a>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-space">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Visit our boutique</p>
+            <h2>Find your next favorite pair in Kumasi.</h2>
+            <div class="info-list">
+              <div>
+                <strong>Location</strong>
+                <span>Kejetia Road, Kumasi, Ghana</span>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <span>Mon-Sat: 9:00 AM – 7:00 PM</span>
+              </div>
+              <div>
+                <strong>Call</strong>
+                <span>+233 20 123 4567</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal">
+            <label>
+              Full name
+              <input type="text" placeholder="Your name" />
+            </label>
+            <label>
+              Email address
+              <input type="email" placeholder="you@example.com" />
+            </label>
+            <label>
+              Your message
+              <textarea rows="4" placeholder="Tell us what you’re looking for..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send enquiry</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="map-section section-space-sm">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Find us</p>
+            <h2>Visit our boutique in Kumasi.</h2>
+          </div>
+          <div class="map-frame reveal">
+            <iframe
+              src="https://www.google.com/maps?q=Kejetia%20Road%20Kumasi%20Ghana&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+              title="ANITA JEANS AND CLOTHING location map"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="#home" class="brand footer-brand">
+            <span class="brand-mark">AJ</span>
+            <span>
+              <strong>ANITA JEANS</strong>
+              <small>AND CLOTHING</small>
+            </span>
+          </a>
+        </div>
+
+        <div class="footer-links">
+          <a href="#collections">Collections</a>
+          <a href="#featured">Featured</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <p>© <span id="year"></span> ANITA JEANS AND CLOTHING. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="floating-socials" aria-label="Social media links">
+      <a
+        class="social-float whatsapp-float"
+        href="https://wa.me/233200000000?text=Hello%20ANITA%20JEANS%20AND%20CLOTHING%2C%20I%20would%20like%20to%20place%20an%20order."
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+      >
+        <span>WA</span>
+      </a>
+      <a
+        class="social-float snapchat-float"
+        href="https://www.snapchat.com/add/anitajeans"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Follow on Snapchat"
+      >
+        <span>SC</span>
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
